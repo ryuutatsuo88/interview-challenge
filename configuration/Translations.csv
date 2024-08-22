@@ -1,0 +1,6 @@
+Country,United States,Germany,China,Japan,Korea,Italy,France,Spain,Portugal ,Russia,Bosnia,Serbia ,Croatia 
+Language,English,German,Mandarin,Japanese,Korean,Italian,French,Spanish,Portuguese,Russian,Bosnian,Serbian,Coatian
+Locale 2 Letter code,US,DE,CN,JP,KR,IT,FR,ES,PT,RU,BA,RS,HR
+Locale 4 Letter code,en-US,de-DE,zh-CN,jp-JP,ko-KR,it-IT,fr-FR,es-ES,pt-PT,ru-RU,bs-BA,sr-RS,hr-HR
+String ID,,,,,,,,,,,,,
+languageswitcher.selectorText,Site Language:,Seitensprache:,网站语言：,サイトの言語:,사이트 언어:,Lingua del sito:,Langue du site:,Idioma del sitio:,Idioma do Site:,Язык сайта:,Jezik stranice:,Jezik sajta:,Jezik stranice:

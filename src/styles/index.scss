@@ -1,0 +1,147 @@
+body {
+    background-color: #FFF;
+    font-family: Arial, sans-serif;
+}
+
+.inter-chal-bg, .inter-chal-bg-dark {
+    background-color: #0D2144;
+}
+
+.inter-chal-bg-light {
+    background-color: #F0FAFF;
+}
+
+.inter-chal-text {
+    color: #0D2144 !important;
+}
+
+.link-unstyled, .link-unstyled:link, .link-unstyled:hover {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.error {
+    border: 2px solid red;
+}
+
+.inter-chal-coming-soon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+
+    .logo {
+        max-width: 600px;
+        max-height: 400px;
+    }
+}
+
+.inter-chal-landing {
+    
+    .main-logo {
+        max-width: 210px;
+    }
+
+    .app-store-btn {
+
+        .app-store-icon {
+            max-width: 34px;
+        }
+
+        .text-line-1 {
+            font-size: .675em
+        }
+
+        .text-line-2 {
+            font-size: .95em
+        }
+    }
+
+    .inter-chal-phone-section-img {
+        width: 60%;
+    }
+
+}
+
+.inter-chal-luffy-nft-page {
+    .main-logo {
+        max-width: 210px;
+    }
+}
+
+.inter-chal-main-section {
+    margin-top: 66px;
+}
+
+.inter-chal-error-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+
+    #error-mascot {
+        max-width: 400px;
+    }
+}
+
+.inter-chal-team-page {
+    .team-img, .mission-img {
+        width: 60%;
+    }
+}
+
+.inter-chal-header {
+    .header-logo {
+        max-height: 40px;
+    }
+
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(39,100,206)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+      
+    .navbar-toggler {
+        border: 1px solid rgb(39,100,206);
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: 39 100 206 1;
+    }
+}
+
+.inter-chal-footer {
+    color: #FFF;
+
+    .footer-logo {
+        max-width: 210px;
+    }
+
+    .icon-list-social {
+        .icon-list-social-link {
+            margin-right: 0.5rem;
+        }
+    }
+
+}
+
+.inter-chal-brand {
+    .logo {
+        width: 100%;
+    }
+
+    .brand-color-container {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 100px;
+    }
+}
+
+@media (max-width: 576px) {
+    .start-0.xs-start-100, .xs-start-100 {
+        left: 100% !important;
+    }
+
+    .start-0.xs-start-90, .xs-start-90 {
+        left: 90% !important;
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "extends": [
+    "tslint:latest",
+    "tslint-config-prettier",
+    "tslint-react"
+  ],
+  "linterOptions": {
+    "exclude": [
+      "src/@types/*"
+    ]
+  },
+  "rules": {
+    "interface-name": false,
+    "no-implicit-dependencies": false,
+    "no-submodule-imports": false,
+    "object-literal-sort-keys": false,
+    "jsx-no-multiline-js": false,
+    "jsx-wrap-multiline": false,
+    "no-invalid-template-strings": false,
+    "jsx-no-lambda": false,
+    "radix": false,
+    "semicolon":true,
+    "no-empty": [true, "allow-empty-catch", "allow-empty-functions"],
+    "no-console": false
+  }
+}
