@@ -1,5 +1,67 @@
 {
     "languageswitcher": {
-        "selectorText": "サイトの言語:"
+        "selectorText": "サイトの言語:",
+        "languages": {
+            "us": "英語",
+            "de": "ドイツ語",
+            "cn": "中国語",
+            "jp": "日本語",
+            "kr": "韓国語",
+            "it": "イタリア語",
+            "fr": "フランス語",
+            "es": "スペイン語",
+            "pt": "ポルトガル語",
+            "ru": "ロシア語",
+            "ba": "ボスニア語",
+            "rs": "セルビア語",
+            "hr": "クロアチア語"
+        }
+    },
+    "errorPage": {
+        "heading": "申し訳ありません",
+        "subheading": "何か問題が発生しました"
+    },
+    "header": {
+        "title": "Compute Labs"
+    },
+    "footer": {
+        "title": "Compute Labs",
+        "copyright": "著作権 © Compute Labs {{year}}",
+        "aboutus": {
+            "heading": "私たちについて",
+            "mediakit": "メディアキット",
+            "whitepaper": "ホワイトペーパー",
+            "contact": "お問い合わせ"
+        },
+        "privacyandterms": {
+            "privacy": "プライバシーポリシー"
+        },
+        "social": {
+            "heading": "ソーシャル",
+            "medium": "Medium",
+            "linkedin": "LinkedIn",
+            "twitter": "X",
+            "telegram": "Telegram"
+        }
+    },
+    "mainFrontPage": {
+        "topSection": {
+            "title": "Compute Labs",
+            "heading": "計算資産、利回り、デリバティブへの直接的なアクセスを可能にすることでAIを金融化",
+            "subheading": "Compute Labsへようこそ&#58; AI投資のゲートウェイ",
+            "button": "プレセールが今ライブ中"
+        },
+        "section2": {
+            "heading": "コンピュートトークン化プロトコル",
+            "subheading": "Compute Tokenization Protocol（CTP）は、エンタープライズグレードのGPUをトークン化するために構築されています。CTPは、計算資産の価格設定の基盤となり、この新興資産クラスの取引、ステーキング、およびデリバティブを可能にします。"
+        },
+        "section3": {
+            "heading": "GPU管理",
+            "subheading": "H100およびB200をT3データセンターで取得・管理し、それらをGNFTにトークン化します。計算資源はさらに（分）散型計算ネットワークおよびDePINプロジェクトに「再ステーキング」され、利回りが得られます。"
+        },
+        "section4": {
+            "heading": "計算デリバティブ",
+            "subheading": "GPU ETF、コンピュートインデックス、パーペチュアル、ステーキング、貸付などのデリバティブを導入することでAI-Fiエコシステムを拡大し、障壁を取り除き、誰もがAIの繁栄に参加できるようにします。"
+        }
     }
 }

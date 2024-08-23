@@ -1,5 +1,67 @@
 {
     "languageswitcher": {
-        "selectorText": "Site Language:"
+        "selectorText": "Site Language:",
+        "languages": {
+            "us": "English",
+            "de": "German",
+            "cn": "Chinese",
+            "jp": "Japanese",
+            "kr": "Korean",
+            "it": "Italian",
+            "fr": "French",
+            "es": "Spanish",
+            "pt": "Portuguese",
+            "ru": "Russian",
+            "ba": "Bosnian",
+            "rs": "Serbian",
+            "hr": "Croatian"
+        }
+    },
+    "errorPage": {
+        "heading": "Sorry",
+        "subheading": "Something went wrong"
+    },
+    "header": {
+        "title": "Compute Labs"
+    },
+    "footer": {
+        "title": "Compute Labs",
+        "copyright": "Copyright © Compute Labs {{year}}",
+        "aboutus": {
+            "heading": "About Us",
+            "mediakit": "Media Kit",
+            "whitepaper": "Witepaper",
+            "contact": "Contact us"
+        },
+        "privacyandterms": {
+            "privacy": "Privacy Policy"
+        },
+        "social": {
+            "heading": "Social",
+            "medium": "Medium",
+            "linkedin": "LinkedIn",
+            "twitter": "X",
+            "telegram": "Telegram"
+        }
+    },
+    "mainFrontPage": {
+        "topSection": {
+            "title": "Compute Labs",
+            "heading": "Financialize AI by enabling direct exposure to compute assets, yield, & derivatives",
+            "subheading": "Welcome to Compute Labs&#58; Your Gateway to AI Investments",
+            "button": "Pre-sale Live NOW"
+        },
+        "section2": {
+            "heading": "Compute Tokenization Protocol",
+            "subheading": "Compute Tokenization Protocol (CTP) is built to tokenize enterprise grade GPUs. CTP is the foundation to pricing compute assets and enabling trading, staking, and derivatives for this emerging asset class."
+        },
+        "section3": {
+            "heading": "GPU Custody",
+            "subheading": "Acquire & custody H100s & B200s in T3 data centers and tokenize them into GNFTs – the compute will be further \"restaked\" into (de)centralized compute networks and DePIN projects for yield"
+        },
+        "section4": {
+            "heading": "Compute Derivatives",
+            "subheading": "Expand AI-Fi ecosystem  by introducing derivatives such as GPU ETF, Compute Index, perp, staking & lending, etc, removing the barrier and enabling everyone to participate in AI prosperity"
+        }
     }
 }

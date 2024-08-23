@@ -1,5 +1,67 @@
 {
     "languageswitcher": {
-        "selectorText": "Lingua del sito:"
+        "selectorText": "Lingua del sito:",
+        "languages": {
+            "us": "Inglese",
+            "de": "Tedesco",
+            "cn": "Cinese",
+            "jp": "Giapponese",
+            "kr": "Coreano",
+            "it": "Italiano",
+            "fr": "Francese",
+            "es": "Spagnolo",
+            "pt": "Portoghese",
+            "ru": "Russo",
+            "ba": "Bosniaco",
+            "rs": "Serbo",
+            "hr": "Croato"
+        }
+    },
+    "errorPage": {
+        "heading": "Spiacenti",
+        "subheading": "Si è verificato un problema"
+    },
+    "header": {
+        "title": "Compute Labs"
+    },
+    "footer": {
+        "title": "Compute Labs",
+        "copyright": "Copyright © Compute Labs {{year}}",
+        "aboutus": {
+            "heading": "Chi siamo",
+            "mediakit": "Kit media",
+            "whitepaper": "Whitepaper",
+            "contact": "Contattaci"
+        },
+        "privacyandterms": {
+            "privacy": "Informativa sulla privacy"
+        },
+        "social": {
+            "heading": "Sociale",
+            "medium": "Medium",
+            "linkedin": "LinkedIn",
+            "twitter": "X",
+            "telegram": "Telegram"
+        }
+    },
+    "mainFrontPage": {
+        "topSection": {
+            "title": "Compute Labs",
+            "heading": "Finanziarizzare l'IA consentendo l'accesso diretto alle risorse di calcolo, ai rendimenti e ai derivati",
+            "subheading": "Benvenuti a Compute Labs&#58; la vostra porta agli investimenti in IA",
+            "button": "Prevendita IN DIRETTA ORA"
+        },
+        "section2": {
+            "heading": "Protocollo di Tokenizzazione del Calcolo",
+            "subheading": "Il Compute Tokenization Protocol (CTP) è stato creato per tokenizzare le GPU di livello enterprise. CTP è la base per la determinazione del prezzo delle risorse di calcolo e consente il trading, lo staking e i derivati per questa classe di asset emergente."
+        },
+        "section3": {
+            "heading": "Custodia delle GPU",
+            "subheading": "Acquisite e custodite H100 e B200 nei data center T3 e tokenizzatele in GNFT – il calcolo verrà ulteriormente \"ristackato\" in reti di calcolo (de)centralizzate e progetti DePIN per generare rendimenti."
+        },
+        "section4": {
+            "heading": "Derivati del Calcolo",
+            "subheading": "Espandete l'ecosistema AI-Fi introducendo derivati come ETF di GPU, Indice di Calcolo, perp, staking e prestiti, rimuovendo le barriere e permettendo a tutti di partecipare alla prosperità dell'IA."
+        }
     }
 }

@@ -1,5 +1,67 @@
 {
     "languageswitcher": {
-        "selectorText": "사이트 언어:"
+        "selectorText": "사이트 언어:",
+        "languages": {
+            "us": "영어",
+            "de": "독일어",
+            "cn": "중국어",
+            "jp": "일본어",
+            "kr": "한국어",
+            "it": "이탈리아어",
+            "fr": "프랑스어",
+            "es": "스페인어",
+            "pt": "포르투갈어",
+            "ru": "러시아어",
+            "ba": "보스니아어",
+            "rs": "세르비아어",
+            "hr": "크로아티아어"
+        }
+    },
+    "errorPage": {
+        "heading": "죄송합니다",
+        "subheading": "문제가 발생했습니다"
+    },
+    "header": {
+        "title": "Compute Labs"
+    },
+    "footer": {
+        "title": "Compute Labs",
+        "copyright": "저작권 © Compute Labs {{year}}",
+        "aboutus": {
+            "heading": "회사 소개",
+            "mediakit": "미디어 키트",
+            "whitepaper": "백서",
+            "contact": "문의하기"
+        },
+        "privacyandterms": {
+            "privacy": "개인정보 보호정책"
+        },
+        "social": {
+            "heading": "소셜",
+            "medium": "Medium",
+            "linkedin": "LinkedIn",
+            "twitter": "X",
+            "telegram": "Telegram"
+        }
+    },
+    "mainFrontPage": {
+        "topSection": {
+            "title": "Compute Labs",
+            "heading": "컴퓨팅 자산, 수익 및 파생 상품에 대한 직접 노출을 통해 AI를 금융화하십시오",
+            "subheading": "Compute Labs에 오신 것을 환영합니다&#58; AI 투자로 가는 관문",
+            "button": "사전 판매 현재 진행 중"
+        },
+        "section2": {
+            "heading": "컴퓨트 토큰화 프로토콜",
+            "subheading": "Compute Tokenization Protocol (CTP)은 엔터프라이즈급 GPU를 토큰화하기 위해 설계되었습니다. CTP는 컴퓨팅 자산의 가격 책정의 기초를 형성하며, 이 신흥 자산 클래스에 대한 거래, 스테이킹 및 파생상품을 가능하게 합니다."
+        },
+        "section3": {
+            "heading": "GPU 관리",
+            "subheading": "T3 데이터 센터에서 H100 및 B200을 확보하고 관리하며 이를 GNFT로 토큰화합니다. 이러한 컴퓨팅 자원은 수익을 위해 (탈)중앙화 컴퓨팅 네트워크 및 DePIN 프로젝트에 추가로 \"재스테이킹\"될 것입니다."
+        },
+        "section4": {
+            "heading": "컴퓨트 파생상품",
+            "subheading": "GPU ETF, 컴퓨트 지수, 무기한 계약, 스테이킹 및 대출과 같은 파생상품을 도입하여 AI-Fi 생태계를 확장하고 장벽을 제거하여 누구나 AI 번영에 참여할 수 있도록 합니다."
+        }
     }
 }

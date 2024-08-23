@@ -1,5 +1,67 @@
 {
     "languageswitcher": {
-        "selectorText": "Seitensprache:"
+        "selectorText": "Seitensprache:",
+        "languages": {
+            "us": "Englisch",
+            "de": "Deutsch",
+            "cn": "Chinesisch",
+            "jp": "Japanisch",
+            "kr": "Koreanisch",
+            "it": "Italienisch",
+            "fr": "Französisch",
+            "es": "Spanisch",
+            "pt": "Portugiesisch",
+            "ru": "Russisch",
+            "ba": "Bosnisch",
+            "rs": "Serbisch",
+            "hr": "Kroatisch"
+        }
+    },
+    "errorPage": {
+        "heading": "Entschuldigung",
+        "subheading": "Etwas ist schief gelaufen"
+    },
+    "header": {
+        "title": "Compute Labs"
+    },
+    "footer": {
+        "title": "Compute Labs",
+        "copyright": "Copyright © Compute Labs {{year}}",
+        "aboutus": {
+            "heading": "Über uns",
+            "mediakit": "Mediensatz",
+            "whitepaper": "Whitepaper",
+            "contact": "Kontaktieren Sie uns"
+        },
+        "privacyandterms": {
+            "privacy": "Datenschutzrichtlinie"
+        },
+        "social": {
+            "heading": "Sozial",
+            "medium": "Medium",
+            "linkedin": "LinkedIn",
+            "twitter": "X",
+            "telegram": "Telegram"
+        }
+    },
+    "mainFrontPage": {
+        "topSection": {
+            "title": "Compute Labs",
+            "heading": "Finanzialisieren Sie KI, indem Sie direkten Zugang zu Rechenressourcen, Erträgen und Derivaten ermöglichen",
+            "subheading": "Willkommen bei Compute Labs&#58; Ihr Tor zu KI-Investitionen",
+            "button": "Vorverkauf JETZT live"
+        },
+        "section2": {
+            "heading": "Compute-Tokenisierungsprotokoll",
+            "subheading": "Das Compute Tokenization Protocol (CTP) wurde entwickelt, um GPUs in Unternehmensqualität zu tokenisieren. CTP ist die Grundlage für die Preisgestaltung von Rechenressourcen und ermöglicht den Handel, das Staking und Derivate für diese aufstrebende Anlageklasse."
+        },
+        "section3": {
+            "heading": "GPU-Verwahrung",
+            "subheading": "Erwerben und verwahren Sie H100s und B200s in T3-Rechenzentren und tokenisieren Sie sie in GNFTs – die Rechenleistung wird weiter in (de)zentralisierte Rechennetze und DePIN-Projekte für Rendite \"restaked\"."
+        },
+        "section4": {
+            "heading": "Compute-Derivate",
+            "subheading": "Erweitern Sie das AI-Fi-Ökosystem, indem Sie Derivate wie GPU-ETF, Compute-Index, Perpetual, Staking und Kreditvergabe einführen, um die Barriere zu beseitigen und allen die Teilnahme am AI-Wohlstand zu ermöglichen."
+        }
     }
 }

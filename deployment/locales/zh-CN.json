@@ -1,5 +1,67 @@
 {
     "languageswitcher": {
-        "selectorText": "网站语言："
+        "selectorText": "网站语言：",
+        "languages": {
+            "us": "英语",
+            "de": "德语",
+            "cn": "中文",
+            "jp": "日语",
+            "kr": "韩语",
+            "it": "意大利语",
+            "fr": "法语",
+            "es": "西班牙语",
+            "pt": "葡萄牙语",
+            "ru": "俄语",
+            "ba": "波斯尼亚语",
+            "rs": "塞尔维亚语",
+            "hr": "克罗地亚语"
+        }
+    },
+    "errorPage": {
+        "heading": "非常抱歉",
+        "subheading": "出现了问题"
+    },
+    "header": {
+        "title": "Compute Labs"
+    },
+    "footer": {
+        "title": "Compute Labs",
+        "copyright": "版权所有 © Compute Labs {{year}}",
+        "aboutus": {
+            "heading": "关于我们",
+            "mediakit": "媒体工具包",
+            "whitepaper": "白皮书",
+            "contact": "联系我们"
+        },
+        "privacyandterms": {
+            "privacy": "隐私政策"
+        },
+        "social": {
+            "heading": "社交",
+            "medium": "Medium",
+            "linkedin": "LinkedIn",
+            "twitter": "X",
+            "telegram": "Telegram"
+        }
+    },
+    "mainFrontPage": {
+        "topSection": {
+            "title": "Compute Labs",
+            "heading": "通过提供对计算资产、收益和衍生品的直接敞口来金融化人工智能",
+            "subheading": "欢迎来到 Compute Labs&#58;您的人工智能投资门户",
+            "button": "预售现已开始"
+        },
+        "section2": {
+            "heading": "计算资产代币化协议",
+            "subheading": "Compute Tokenization Protocol (CTP) 是为企业级GPU进行代币化而构建的。CTP是计算资产定价的基础，并为这一新兴资产类别的交易、质押和衍生品提供支持。"
+        },
+        "section3": {
+            "heading": "GPU托管",
+            "subheading": "在T3数据中心获取并托管H100和B200，并将其代币化为GNFTs——这些计算资源将进一步“再质押”到（去）中心化计算网络和DePIN项目中以获取收益。"
+        },
+        "section4": {
+            "heading": "计算衍生品",
+            "subheading": "通过引入GPU ETF、计算指数、永久合约、质押和借贷等衍生品，扩展AI-Fi生态系统，消除障碍，让所有人都能参与到AI繁荣中来。"
+        }
     }
 }

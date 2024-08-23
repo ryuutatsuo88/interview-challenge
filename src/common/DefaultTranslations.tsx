@@ -39,5 +39,16 @@ export const DefaultStrings = {
     // main front page start //
     // top section
     mainFrontPageTopSectionTitle: {stringId: "mainFrontPage.topSection.title", defaultString: "Compute Labs"},
+    mainFrontPageTopSectionHeading: {stringId: "mainFrontPage.topSection.heading", defaultString: "Financialize AI by enabling direct exposure to compute assets, yield, & derivatives"},
+    mainFrontPageTopSectionSubHeading: {stringId: "mainFrontPage.topSection.subheading", defaultString: "Welcome to Compute Labs: Your Gateway to AI Investments"},
+    mainFrontPageTopSectionButton: {stringId: "mainFrontPage.topSection.button", defaultString: "Pre-sale Live NOW"},
 
+    mainFrontPageSection2Heading: {stringId: "mainFrontPage.section2.heading", defaultString: "Compute Tokenization Protocol"},
+    mainFrontPageSection2SubHeading: {stringId: "mainFrontPage.section2.subheading", defaultString: "Compute Tokenization Protocol (CTP) is built to tokenize enterprise grade GPUs. CTP is the foundation to pricing compute assets and enabling trading, staking, and derivatives for this emerging asset class."},
+
+    mainFrontPageSection3Heading: {stringId: "mainFrontPage.section3.heading", defaultString: "GPU Custody"},
+    mainFrontPageSection3SubHeading: {stringId: "mainFrontPage.section3.subheading", defaultString: "Acquire & custody H100s & B200s in T3 data centers and tokenize them into GNFTs – the compute will be further \"restaked\" into (de)centralized compute networks and DePIN projects for yield"},
+
+    mainFrontPageSection4Heading: {stringId: "mainFrontPage.section4.heading", defaultString: "Compute Derivatives"},
+    mainFrontPageSection4SubHeading: {stringId: "mainFrontPage.section4.subheading", defaultString: "Expand AI-Fi ecosystem  by introducing derivatives such as GPU ETF, Compute Index, perp, staking & lending, etc, removing the barrier and enabling everyone to participate in AI prosperity"},
 };

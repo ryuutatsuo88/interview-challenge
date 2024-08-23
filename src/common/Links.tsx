@@ -17,6 +17,7 @@ export const Links = {
     webApp: "#",
     contact: "https://www.computelabs.ai/contact/contact", 
     whitePaper: "https://compute-labs.gitbook.io/compute-labs",
+    presale: "https://presale.computelabs.ai/",
 
 
     // app links 

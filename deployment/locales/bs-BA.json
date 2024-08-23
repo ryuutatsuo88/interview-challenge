@@ -1,5 +1,67 @@
 {
     "languageswitcher": {
-        "selectorText": "Jezik stranice:"
+        "selectorText": "Jezik stranice:",
+        "languages": {
+            "us": "Engleski",
+            "de": "Njemački",
+            "cn": "Kineski",
+            "jp": "Japanski",
+            "kr": "Korejski",
+            "it": "Italijanski",
+            "fr": "Francuski",
+            "es": "Španski",
+            "pt": "Portugalski",
+            "ru": "Ruski",
+            "ba": "Bosanski",
+            "rs": "Srpski",
+            "hr": "Hrvatski"
+        }
+    },
+    "errorPage": {
+        "heading": "Žao nam je",
+        "subheading": "Došlo je do greške"
+    },
+    "header": {
+        "title": "Compute Labs"
+    },
+    "footer": {
+        "title": "Compute Labs",
+        "copyright": "Autorska prava © Compute Labs {{year}}",
+        "aboutus": {
+            "heading": "O nama",
+            "mediakit": "Medijski paket",
+            "whitepaper": "Whitepaper",
+            "contact": "Kontaktirajte nas"
+        },
+        "privacyandterms": {
+            "privacy": "Pravila privatnosti"
+        },
+        "social": {
+            "heading": "Društvene mreže",
+            "medium": "Medium",
+            "linkedin": "LinkedIn",
+            "twitter": "X",
+            "telegram": "Telegram"
+        }
+    },
+    "mainFrontPage": {
+        "topSection": {
+            "title": "Compute Labs",
+            "heading": "Finansijalizujte AI omogućavajući direktan pristup računarskim sredstvima, prinosima i derivatima",
+            "subheading": "Dobrodošli u Compute Labs&#58; Vaša vrata za AI investicije",
+            "button": "Pretprodaja uživo SADA"
+        },
+        "section2": {
+            "heading": "Protokol za tokenizaciju računanja",
+            "subheading": "Compute Tokenization Protocol (CTP) je razvijen za tokenizaciju GPU-ova na nivou preduzeća. CTP je osnova za određivanje cijene računalnih resursa i omogućava trgovanje, staking i derivate za ovu novu klasu imovine."
+        },
+        "section3": {
+            "heading": "Skrbništvo nad GPU-ovima",
+            "subheading": "Nabavite i čuvajte H100 i B200 u T3 podatkovnim centrima i tokenizirajte ih u GNFT-ove – računalni kapaciteti će dalje biti \"restakani\" u (de)centralizirane računalne mreže i DePIN projekte za prinose."
+        },
+        "section4": {
+            "heading": "Računalni derivati",
+            "subheading": "Proširite AI-Fi ekosistem uvođenjem derivata poput GPU ETF-a, indeksa računalnih resursa, perpetualnih ugovora, stakinga i pozajmljivanja, uklanjajući prepreke i omogućavajući svima da sudjeluju u prosperitetu AI-a."
+        }
     }
 }
