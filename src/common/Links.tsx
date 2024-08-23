@@ -1,19 +1,22 @@
 export const Links = {
     facebook: "#",
-    twitter: "#",
+    twitter: "https://x.com/Compute_Labs",
     instagram: "#",
     youtube: "#",
     tiktok: "#", 
-    linkedin: "#",
-    medium: "#",
+    linkedin: "https://www.linkedin.com/company/computelabs-ai",
+    medium: "https://medium.com/@Compute_Labs",
     store: "#",
     email: "#",
     discord: "#",
+    telegram: "https://t.me/compute_Labs_channel",
     android: "#", 
     ios: "#",
-    pressKit: "#",
+    pressKit: "https://drive.google.com/drive/folders/1fUPzJBNPaF5MNqhhqji2Fi7nKaY-tOD-",
     ticket: "#",
-    webApp: "#", 
+    webApp: "#",
+    contact: "https://www.computelabs.ai/contact/contact", 
+    whitePaper: "https://compute-labs.gitbook.io/compute-labs",
 
 
     // app links 
@@ -23,7 +26,7 @@ export const Links = {
     press: "/press",
     faq: "/faq",
     community: "#",
-    privacy: "#",
+    privacy: "https://www.computelabs.ai/contact/private-policy",
     terms: "#",
 
 };

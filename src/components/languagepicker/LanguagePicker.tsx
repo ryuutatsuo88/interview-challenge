@@ -37,7 +37,7 @@ const LanguagePicker = () => {
 
     return (
         <div className="language-picker">
-            <a id="Popover1" className="text-decoration-none link-info">
+            <a id="Popover1" className="text-decoration-none text-white">
                 <span className="me-1">{translate(ds.languageSwither.stringId, ds.languageSwither.defaultString)}</span>
                 <img className="d-inline-block me-1" width="24" height="16" src={`http://purecatamphetamine.github.io/country-flag-icons/3x2/${languageMapKey}.svg`}/>
                 <span className="me-1">{translate(`languageswitcher.languages.${languageMapKey.toLowerCase()}`, "")}</span>
