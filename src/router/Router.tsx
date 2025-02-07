@@ -4,14 +4,12 @@ import {Spinner} from 'reactstrap';
 import { Links } from "src/common/Links";
 import AppPage from "src/components/AppPage";
 import ErrorPage from "src/components/ErrorPage";
-import Footer from "src/components/footer/Footer";
-import Header from "src/components/header/Header";
+
 
 
 const Router = () => {
     return (
         <>
-            <Header />
             <section className="inter-chal-main-section">
                     <React.Suspense fallback={<Spinner color="primary">Loading...</Spinner>}>
                         <BrowserRouter>
@@ -22,7 +20,7 @@ const Router = () => {
                         </BrowserRouter>
                     </React.Suspense>
             </section>
-            <Footer />
+
         </>
     );
 };

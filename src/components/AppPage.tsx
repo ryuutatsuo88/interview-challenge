@@ -1,121 +1,146 @@
 import React from "react";
-import ReactHtmlParser from "react-html-parser";
-import Lottie from "react-lottie-player";
-import { DefaultStrings as ds } from "src/common/DefaultTranslations";
-import {ErrorBoundary} from "src/common/ErrorBoundary";
-import { translate } from "src/common/I18N";
-import { Links } from "src/common/Links";
-import animation_1 from "src/lottie/animation-1.json";
-import animation_2 from "src/lottie/animation-2.json";
-import animation_3 from "src/lottie/animation-3.json";
-import animation_4 from "src/lottie/animation-4.json";
+import { ErrorBoundary } from "src/common/ErrorBoundary";
+import {
+  CollectionData,
+  getCollection,
+  getNFTs,
+  NFTItem,
+  NFTsResponse,
+} from "src/common/OpenSeaApi";
+import NFTCard from "./nftcard/NftCard";
 
+interface PageData {
+  nfts: NFTItem[];
+  nextCursor: string;
+}
 
-const AppPage = () => {
+const AppPage: React.FC = () => {
+  const [collection, setCollection] = React.useState<CollectionData | null>(null);
+  const [loading, setLoading] = React.useState(false);
+  const [pages, setPages] = React.useState<PageData[]>([]);
+  const [currentPageIndex, setCurrentPageIndex] = React.useState(0);
 
-    return (
-        <ErrorBoundary type={"Main-Landing"}>
-          <div className="inter-chal-landing">
-              {/** ======================= */}
-              <div className="inter-chal-bg">
-              <div className="container">
-                <div className="row align-items-center py-5 inter-chal-bg">
-                  <div className="col-lg-6 text-center text-lg-start text-white">
-                    <h1 className="fw-bold lh-1 mb-3">
-                      {translate(ds.mainFrontPageTopSectionHeading.stringId, ds.mainFrontPageTopSectionHeading.defaultString)}
-                    </h1>
-                    <h4 className="mb-3">{ReactHtmlParser(translate(ds.mainFrontPageTopSectionSubHeading.stringId, ds.mainFrontPageTopSectionSubHeading.defaultString))}</h4>
-                    <a href={Links.presale} target="_blank" className="btn btn-primary btn-lg d-block mx-auto position-relative app-store-btn">
-                        {translate(ds.mainFrontPageTopSectionButton.stringId, ds.mainFrontPageTopSectionButton.defaultString)}
-                      </a>
-                  </div>
-                  <div className="col-lg-6">
-                      <Lottie
-                        loop={true}
-                        animationData={animation_4}
-                        play={true}
-                        style={{ width: "100%" }}
-                      />
-                  </div>
-                </div>
-              </div>
-              </div>
-              {/** ======================= */}
+  React.useEffect(() => {
+    const fetchInitialData = async () => {
+      setLoading(true);
+      try {
+        const [collectionInfo, firstPage] = await Promise.all([
+          getCollection(),
+          getNFTs(20, ""),
+        ]);
 
+        if (collectionInfo) {
+          setCollection(collectionInfo);
+        }
 
-              {/** ======================= */}
-            <div className="text-bg-secondary">
-            <div className="container">
-              <div className="row align-items-center py-5">
-                <div className="col-lg-7 col-sm-12">
-                    <Lottie
-                      loop={true}
-                      animationData={animation_2}
-                      play={true}
-                      style={{ width: "100%" }}
-                    />
-                </div>
-                <div className="col-lg-5 col-sm-12 text-center text-lg-start">
-                  <h1 className="fw-bold lh-1 mb-3 inter-chal-text">{translate(ds.mainFrontPageSection2Heading.stringId, ds.mainFrontPageSection2Heading.defaultString)}</h1>
-                  <h4 className="mb-3 inter-chal-text">{translate(ds.mainFrontPageSection2SubHeading.stringId, ds.mainFrontPageSection2SubHeading.defaultString)}</h4>
-                </div>
-              </div>
-            </div>
-            </div>
-            {/** ======================= */}
+        setPages([
+          {
+            nfts: firstPage.nfts,
+            nextCursor: firstPage.next,
+          },
+        ]);
+      } catch (error) {
+        console.error("Error fetching initial data:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
 
-            {/** ======================= */}
-            <div className="container">
-              <div className="row align-items-center py-5">
-                <div className="col-lg-5 col-sm-12 text-center text-lg-start">
-                <h1 className="fw-bold lh-1 mb-3 inter-chal-text">{translate(ds.mainFrontPageSection3Heading.stringId, ds.mainFrontPageSection3Heading.defaultString)}</h1>
-                <h4 className="mb-3 inter-chal-text">{translate(ds.mainFrontPageSection3SubHeading.stringId, ds.mainFrontPageSection3SubHeading.defaultString)}</h4>
-                </div>
-                <div className="col-lg-7 col-sm-12">
-                  <div className="row justify-content-center mb-3">
-                    <div className="col">
-                    <Lottie
-                      loop={true}
-                      animationData={animation_3}
-                      play={true}
-                      style={{ width: "100%" }}
-                    />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/** ======================= */}
+    fetchInitialData();
+  }, []);
 
+  const fetchNextPage = async (nextCursor: string): Promise<PageData> => {
+    setLoading(true);
+    try {
+      const nextPageData: NFTsResponse = await getNFTs(20, nextCursor);
+      return {
+        nfts: nextPageData.nfts,
+        nextCursor: nextPageData.next,
+      };
+    } catch (error) {
+      console.error("Error fetching next page:", error);
+      return { nfts: [], nextCursor: "" };
+    } finally {
+      setLoading(false);
+    }
+  };
 
-            {/** ======================= */}
-            <div className="inter-chal-bg-light">
-            <div className="container">
-              <div className="row align-items-center py-5">
-                <div className="col-lg-7 col-sm-12">
-                  <div className="row justify-content-center">
-                    <div className="col">
-                    <Lottie
-                      loop={true}
-                      animationData={animation_1}
-                      play={true}
-                      style={{ width: "100%" }}
-                    />
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-5 col-sm-12 text-center text-lg-start">
-                <h1 className="fw-bold lh-1 mb-3 inter-chal-text">{translate(ds.mainFrontPageSection4Heading.stringId, ds.mainFrontPageSection4Heading.defaultString)}</h1>
-                <h4 className="mb-3 inter-chal-text">{translate(ds.mainFrontPageSection4SubHeading.stringId, ds.mainFrontPageSection4SubHeading.defaultString)}</h4>
-                </div>
-              </div>
-            </div>
-            </div>
-            {/** ======================= */}
+  const handleNext = async () => {
+    if (currentPageIndex === pages.length - 1) {
+      const { nextCursor } = pages[pages.length - 1];
+      if (!nextCursor) {
+        return;
+      }
 
+      const newPage = await fetchNextPage(nextCursor);
+      setPages((prevPages) => [...prevPages, newPage]);
+      setCurrentPageIndex((prevIndex) => prevIndex + 1);
+    } else {
+      setCurrentPageIndex((prevIndex) => prevIndex + 1);
+    }
+  };
+
+  const handlePrevious = () => {
+    if (currentPageIndex > 0) {
+      setCurrentPageIndex((prevIndex) => prevIndex - 1);
+    }
+  };
+
+  const currentPage = pages[currentPageIndex] ?? { nfts: [], nextCursor: "" };
+  const nftsToDisplay = currentPage.nfts ?? [];
+
+  return (
+    <ErrorBoundary type={"Main-Landing"}>
+      <div className="container py-4">
+        {/* COLLECTION HEADER */}
+        {collection && (
+          <div className="mb-4 text-center">
+            <h1>{collection.name}</h1>
+            {collection.banner_image_url && (
+              <img
+                src={collection.banner_image_url}
+                alt="collection-banner"
+                className="img-fluid mb-3"
+                style={{ maxHeight: 300, objectFit: "cover" }}
+              />
+            )}
+            <p className="text-muted">{collection.description}</p>
           </div>
-        </ErrorBoundary>
-    );
+        )}
+
+        {/* LOADING INDICATOR */}
+        {loading && <div className="text-center mb-3">Loading...</div>}
+
+        {/* NFT GALLERY */}
+        <div className="row">
+          {nftsToDisplay.map((nft: NFTItem) => (
+            <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4" key={nft.identifier}>
+              {/* Render our reusable NFTCard for each NFT */}
+              <NFTCard nft={nft} />
+            </div>
+          ))}
+        </div>
+
+        {/* PAGINATION */}
+        <div className="d-flex justify-content-between">
+          <button
+            className="btn btn-secondary"
+            onClick={handlePrevious}
+            disabled={currentPageIndex === 0 || loading}
+          >
+            Previous
+          </button>
+          <button
+            className="btn btn-primary"
+            onClick={handleNext}
+            disabled={!currentPage.nextCursor || loading}
+          >
+            Next
+          </button>
+        </div>
+      </div>
+    </ErrorBoundary>
+  );
 };
 
 export default AppPage;
