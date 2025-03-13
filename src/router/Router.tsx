@@ -4,6 +4,7 @@ import {Spinner} from 'reactstrap';
 import { Links } from "src/common/Links";
 import AppPage from "src/components/AppPage";
 import ErrorPage from "src/components/ErrorPage";
+import Close from "src/components/pages/Close";
 
 
 
@@ -15,6 +16,7 @@ const Router = () => {
                         <BrowserRouter>
                             <Switch>
                                 <Route exact={true} path={Links.home} component={AppPage} />
+                                <Route exact={true} path={"/close"} component={Close} />
                                 <Route path={"*"} component={ErrorPage} />
                             </Switch>
                         </BrowserRouter>
