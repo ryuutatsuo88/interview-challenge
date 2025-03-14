@@ -5,6 +5,7 @@ import { Links } from "src/common/Links";
 import AppPage from "src/components/AppPage";
 import ErrorPage from "src/components/ErrorPage";
 import Close from "src/components/pages/Close";
+import {CourseRender} from "src/components/pages/CourseLayout";
 
 
 
@@ -17,6 +18,7 @@ const Router = () => {
                             <Switch>
                                 <Route exact={true} path={Links.home} component={AppPage} />
                                 <Route exact={true} path={"/close"} component={Close} />
+                                <Route exact={true} path={"/courseLayout"} component={CourseRender} />
                                 <Route path={"*"} component={ErrorPage} />
                             </Switch>
                         </BrowserRouter>
