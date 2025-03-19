@@ -236,126 +236,126 @@ const CourseRender = () => {
             "lesson": 2,
             "title": "Katakana #2"
         },
-        // {
-        //     "version": 1,
-        //     "level-topic-lesson-version": "Level#Intro#Topic#Katakana#Lesson#2#Version#1",
-        //     "image": "Japanese_Intro_Katakana_2.png",
-        //     "level": "Intro",
-        //     "course": "Japanese",
-        //     "topic": "Hiragana",
-        //     "lessonType": [
-        //         "Writing"
-        //     ],
-        //     "public": true,
-        //     "language-public": {
-        //         "fi-FI": false,
-        //     },
-        //     "description": {
-        //         "de-DE": "Katakana sa & ta",
-        //     },
-        //     "lesson": 1,
-        //     "title": "Hiragana #1"
-        // },
-        // {
-        //     "version": 1,
-        //     "level-topic-lesson-version": "Level#Intro#Topic#Katakana#Lesson#2#Version#1",
-        //     "image": "Japanese_Intro_Katakana_2.png",
-        //     "level": "Intro",
-        //     "course": "Japanese",
-        //     "topic": "Main",
-        //     "lessonType": [
-        //         "Writing"
-        //     ],
-        //     "public": true,
-        //     "language-public": {
-        //         "fi-FI": false,
-        //     },
-        //     "description": {
-        //         "de-DE": "Katakana sa & ta",
-        //     },
-        //     "lesson": 1,
-        //     "title": "Main #1"
-        // },
-        // {
-        //     "version": 1,
-        //     "level-topic-lesson-version": "Level#Intro#Topic#Katakana#Lesson#2#Version#1",
-        //     "image": "Japanese_Intro_Katakana_2.png",
-        //     "level": "Intro",
-        //     "course": "Japanese",
-        //     "topic": "Hiragana",
-        //     "lessonType": [
-        //         "Writing"
-        //     ],
-        //     "public": true,
-        //     "language-public": {
-        //         "fi-FI": false,
-        //     },
-        //     "description": {
-        //         "de-DE": "Katakana sa & ta",
-        //     },
-        //     "lesson": 2,
-        //     "title": "Hiragana #2"
-        // },
-        // {
-        //     "version": 1,
-        //     "level-topic-lesson-version": "Level#Intro#Topic#Katakana#Lesson#2#Version#1",
-        //     "image": "Japanese_Intro_Katakana_2.png",
-        //     "level": "Intro",
-        //     "course": "Japanese",
-        //     "topic": "Main",
-        //     "lessonType": [
-        //         "Writing"
-        //     ],
-        //     "public": true,
-        //     "language-public": {
-        //         "fi-FI": false,
-        //     },
-        //     "description": {
-        //         "de-DE": "Katakana sa & ta",
-        //     },
-        //     "lesson": 2,
-        //     "title": "Main #2"
-        // },
-        // {
-        //     "version": 1,
-        //     "level-topic-lesson-version": "Level#Intro#Topic#Katakana#Lesson#2#Version#1",
-        //     "image": "Japanese_Intro_Katakana_2.png",
-        //     "level": "Intro",
-        //     "course": "Japanese",
-        //     "topic": "Hiragana",
-        //     "lessonType": [
-        //         "Writing"
-        //     ],
-        //     "public": true,
-        //     "language-public": {
-        //         "fi-FI": false,
-        //     },
-        //     "description": {
-        //         "de-DE": "Katakana sa & ta",
-        //     },
-        //     "lesson": 3,
-        //     "title": "Hiragana #3"
-        // },
-        // {
-        //     "version": 1,
-        //     "level-topic-lesson-version": "Level#Intro#Topic#Katakana#Lesson#2#Version#1",
-        //     "image": "Japanese_Intro_Katakana_2.png",
-        //     "level": "Intro",
-        //     "course": "Japanese",
-        //     "topic": "Main",
-        //     "lessonType": [
-        //         "Writing"
-        //     ],
-        //     "public": true,
-        //     "language-public": {
-        //         "fi-FI": false,
-        //     },
-        //     "description": {
-        //         "de-DE": "Katakana sa & ta",
-        //     },
-        //     "lesson": 3,
-        //     "title": "Main #3"
-        // }
+        {
+            "version": 1,
+            "level-topic-lesson-version": "Level#Intro#Topic#Katakana#Lesson#2#Version#1",
+            "image": "Japanese_Intro_Katakana_2.png",
+            "level": "Intro",
+            "course": "Japanese",
+            "topic": "Hiragana",
+            "lessonType": [
+                "Writing"
+            ],
+            "public": true,
+            "language-public": {
+                "fi-FI": false,
+            },
+            "description": {
+                "de-DE": "Katakana sa & ta",
+            },
+            "lesson": 1,
+            "title": "Hiragana #1"
+        },
+        {
+            "version": 1,
+            "level-topic-lesson-version": "Level#Intro#Topic#Katakana#Lesson#2#Version#1",
+            "image": "Japanese_Intro_Katakana_2.png",
+            "level": "Intro",
+            "course": "Japanese",
+            "topic": "Main",
+            "lessonType": [
+                "Writing"
+            ],
+            "public": true,
+            "language-public": {
+                "fi-FI": false,
+            },
+            "description": {
+                "de-DE": "Katakana sa & ta",
+            },
+            "lesson": 1,
+            "title": "Main #1"
+        },
+        {
+            "version": 1,
+            "level-topic-lesson-version": "Level#Intro#Topic#Katakana#Lesson#2#Version#1",
+            "image": "Japanese_Intro_Katakana_2.png",
+            "level": "Intro",
+            "course": "Japanese",
+            "topic": "Hiragana",
+            "lessonType": [
+                "Writing"
+            ],
+            "public": true,
+            "language-public": {
+                "fi-FI": false,
+            },
+            "description": {
+                "de-DE": "Katakana sa & ta",
+            },
+            "lesson": 2,
+            "title": "Hiragana #2"
+        },
+        {
+            "version": 1,
+            "level-topic-lesson-version": "Level#Intro#Topic#Katakana#Lesson#2#Version#1",
+            "image": "Japanese_Intro_Katakana_2.png",
+            "level": "Intro",
+            "course": "Japanese",
+            "topic": "Main",
+            "lessonType": [
+                "Writing"
+            ],
+            "public": true,
+            "language-public": {
+                "fi-FI": false,
+            },
+            "description": {
+                "de-DE": "Katakana sa & ta",
+            },
+            "lesson": 2,
+            "title": "Main #2"
+        },
+        {
+            "version": 1,
+            "level-topic-lesson-version": "Level#Intro#Topic#Katakana#Lesson#2#Version#1",
+            "image": "Japanese_Intro_Katakana_2.png",
+            "level": "Intro",
+            "course": "Japanese",
+            "topic": "Hiragana",
+            "lessonType": [
+                "Writing"
+            ],
+            "public": true,
+            "language-public": {
+                "fi-FI": false,
+            },
+            "description": {
+                "de-DE": "Katakana sa & ta",
+            },
+            "lesson": 3,
+            "title": "Hiragana #3"
+        },
+        {
+            "version": 1,
+            "level-topic-lesson-version": "Level#Intro#Topic#Katakana#Lesson#2#Version#1",
+            "image": "Japanese_Intro_Katakana_2.png",
+            "level": "Intro",
+            "course": "Japanese",
+            "topic": "Main",
+            "lessonType": [
+                "Writing"
+            ],
+            "public": true,
+            "language-public": {
+                "fi-FI": false,
+            },
+            "description": {
+                "de-DE": "Katakana sa & ta",
+            },
+            "lesson": 3,
+            "title": "Main #3"
+        }
     ]}
     />;
 };
